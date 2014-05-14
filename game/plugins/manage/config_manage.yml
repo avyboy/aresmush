@@ -1,6 +1,0 @@
-manage:
-    roles:
-        # List roles that are allowed to use game management commands.
-        can_manage: 
-            - admin
-            # - another_role
