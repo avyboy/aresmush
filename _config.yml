@@ -19,21 +19,22 @@ topbar:
 #
 title : JB
 author :
-  name : Jade Dominguez
-  email : plusjade@gmail.com
-  github : plusjade
-  twitter : plusjade
-  feedburner : nil
+  name : Faraday
+  email : faraday@aresmush.com
+  github : lynnfaraday
+  #twitter : plusjade
+  #feedburner : nil
+
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
 #
 # If you have set a CNAME (pages.github.com) set your custom domain here.
-# Else if you are pushing to username.github.com, replace with your username.
+# Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://jekyllbootstrap.com
+production_url : http://lynnfaraday.github.io/aresmush
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -48,7 +49,8 @@ JB :
   # Leave this blank if you have defined a CNAME for your site (pages.github.com)
   # NOTE: When in localhost, your site will run from root "/" regardless of BASE_PATH
   #
-  BASE_PATH : ""
+  BASE_PATH : "AresMUSH"
+
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -66,6 +68,8 @@ JB :
   archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
+  atom_path : /atom.xml
+  rss_path : /rss.xml
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
@@ -81,7 +85,6 @@ JB :
       account : 123abc
     facebook :
       apikey : 123
-
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
@@ -92,6 +95,7 @@ JB :
         tracking_id : 'UA-635329-12'
     getclicky :
       site_id : 
+
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.

@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 _site/*
 
 Thumbs.db
 .DS_Store
 
 !.gitkeep
+=======
+_site
+>>>>>>> 6434355dcbf15e6c4408bf2ac0f4efb5cd821263

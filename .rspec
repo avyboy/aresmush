@@ -1,0 +1,1 @@
+-c --default_path . --pattern **/*_spec*.rb
