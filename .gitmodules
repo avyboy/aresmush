@@ -1,3 +1,7 @@
 [submodule "dinky"]
    path = _theme_packages/dinky
    url = https://github.com/broccolini/dinky.git
+
+[submodule "midnight"]
+   path = _theme_packages/midnight
+   url = https://github.com/Blahah/jekyll-midnight.git
