@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Little Things
-tagline: Small improvements can make a big difference.
+subtitle: Small improvements can make a big difference.
 group: features
 ---
 {% include JB/setup %}

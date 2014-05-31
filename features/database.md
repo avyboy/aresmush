@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Database
-tagline: A standard database.
+subtitle: A standard database.
 group: features
 ---
 {% include JB/setup %}

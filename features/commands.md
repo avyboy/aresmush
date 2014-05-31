@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Commands
-tagline: Intuitive commands.
+subtitle: Intuitive commands.
 group: features
 ---
 {% include JB/setup %}
@@ -10,7 +10,7 @@ On Penn or Tiny, command names have historical significance.  But new players ar
 
 # Oh no, not another set of commands!
 
-Don't worry if you're an experienced MUSH player.  Thanks to the [Shortcuts](/shortcuts.html) system, you'll find that the command names you know and love should work just fine.  In fact, Ares does its best to support **both** Penn and MUX syntax for common commands.
+Don't worry if you're an experienced MUSH player.  Thanks to the [Shortcuts]({{site.siteroot}}features/shortcuts.html) system, you'll find that the command names you know and love should work just fine.  In fact, Ares does its best to support **both** Penn and MUX syntax for common commands.
 
 # No Prefixes
 
@@ -20,5 +20,5 @@ Commands in Ares have no prefixes.  The who command is simply "who".  The combat
 
 # Intuitive Names
 
-Commands in Ares have (hopefully) intuitive names.  The OOC profile commad is 'profile', not 'finger'.  The command to build a room is 'build', not 'dig'.  The [Shortcuts](/shortcuts.html) system provides aliases for the old-school command names.
+Commands in Ares have (hopefully) intuitive names.  The OOC profile commad is 'profile', not 'finger'.  The command to build a room is 'build', not 'dig'.  The [Shortcuts]({{site.siteroot}}features/shortcuts.html) system provides aliases for the old-school command names.
 

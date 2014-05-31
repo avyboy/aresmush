@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Shortcuts
-tagline: Familiarity for Penn and MUX players.
+subtitle: Familiarity for Penn and MUX players.
 group: features
 ---
 {% include JB/setup %}

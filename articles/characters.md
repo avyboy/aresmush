@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Creating MUSH Characters
-tagline: 
+subtitle: 
 group: articles
 ---
 {% include JB/setup %}
 
-//by Linda Naughton ("Faraday")//
+*by Linda Naughton ("Faraday")*
 
 "Characters must be true to their own past and their beliefs, not shoved about simply in service of plot." Christina Skye, Building Believable Characters
 

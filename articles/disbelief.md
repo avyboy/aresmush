@@ -1,13 +1,14 @@
 ---
 layout: page
 title: Suspension of Disbelief
-tagline: 
+subtitle: 
 group: articles
 ---
 {% include JB/setup %}
 
-//by Linda Naughton ("Faraday")
-Originally posted on Electric Soup.//
+*by Linda Naughton ("Faraday")*
+
+*Originally posted on Electric Soup.*
 
 I'm sure everybody has seen a movie with a plot hole large enough to drive a 747 through. Some folks see it and shout indignantly, "That could never happen!!" The extremists even go so far as to hate the movie because of one such plot hole, no matter how good the rest of the movie was. But then there are others, who shout, "Get over it! It's just a movie - suspend your disbelief!"
 

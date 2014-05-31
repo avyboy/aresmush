@@ -154,7 +154,8 @@ strong {
 
 blockquote {
   margin: 1em 40px;
-}
+  font-family: monospace;
+      white-space: pre;}
 
 /*
  * Addresses styling not present in S5, Chrome

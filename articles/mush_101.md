@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MUSH 101
-tagline: 
+subtitle: 
 group: articles
 ---
 {% include JB/setup %}
