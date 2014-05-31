@@ -222,12 +222,6 @@ strong {
   font-weight: bold;
 }
 
-blockquote {
-  margin: 1em 40px;
-  font-family: monospace;
-      white-space: pre;
-  }
-
 /*
  * Addresses styling not present in S5, Chrome
  */
@@ -627,9 +621,13 @@ section img {
 
 blockquote {
   border-left: 3px solid #ffcc00;
-  margin: 0;
+  margin: 20px;
   padding: 0 0 0 20px;
   font-style: italic;
+  font-family: monospace;
+   white-space: pre;
+   
+  
 }
 
 code {

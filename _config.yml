@@ -132,6 +132,6 @@ JB :
 markdown: kramdown
 
 # For local debugging
-#siteroot: '/'
+siteroot: '/'
 # For published site
-siteroot: "/aresmush/"
+#siteroot: "/aresmush/"
