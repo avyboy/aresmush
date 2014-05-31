@@ -134,4 +134,4 @@ markdown: kramdown
 # For local debugging
 #siteroot: '/'
 # For published site
-siteroot: "/aresmush"
+siteroot: "/aresmush/"
