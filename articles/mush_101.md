@@ -37,7 +37,7 @@ MUSHing is unfortunately a somewhat insular hobby. Advertising is done primarily
 
 So you've found a game, and a somewhat cryptic-looking address:
 
-> mush.aresmush.com port 7206
+&gt; mush.aresmush.com port 7206
 
 Technically you can connect to any MUSH with an old-fashioned telnet program, but don't!  The experience will be so painful you'll never want to come back. You should get a dedicated MUSH client.  There are many out there, but the premiere ones (all offering a free basic version) are:
 
@@ -73,8 +73,8 @@ Follow the instructions on your chosen client to enter the MUSH address, and con
     ...---..`.--//oyymMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
     +------------------------------------------------------------------------+
     |                  mush.aresmush.com port 7206                           |
-    | Use create <name> <password> to create a character.                    |
-    | Use connect <name> <password> to connect to your existing character.   |
+    | Use create &lt;name&gt; &lt;password&gt; to create a character.                    |
+    | Use connect &lt;name&gt; &lt;password&gt; to connect to your existing character.   |
     +------------------------------------------------------------------------+
 
 
@@ -124,7 +124,7 @@ Side note: Recurring and/or prominent NPCs may be given character objects like P
 
 As soon as you log in, you'll probably see people greeting you:
 
-> <Newbie> Faraday says, "Welcome Guest!"
+> &lt;Newbie&gt; Faraday says, "Welcome Guest!"
 	
 How do you talk back?
 
@@ -132,7 +132,7 @@ First off, it's important to know that there are different ways to communicate I
 
 MUSHes have **channels**, which are like public chatrooms.  Each channel has a purpose, and commonly there will be at least two on every game: a //Public// channel for general chit-chat, and a //Newbie// channel for answering questions from new players.  The channel name appears at the beginning of everything someone says on a channel:
 
-> <Public> Faraday says, "Some MUSHes use <> for channel names."
+> &lt;Public&gt; Faraday says, "Some MUSHes use &lt;&gt; for channel names."
 > [Newbie] Chaos says, "Others use []."
 
 Remember that channels are public, so comments made to a channel are seen by everyone who has subscribed to (or 'joined') that channel.
@@ -158,7 +158,7 @@ Once you've had a look around as a Guest and decided to stay, you'll want to cre
 
 Connect to the game, but this time use the 'create' command to create your own character:
 
-> create <name> <password>
+> create &lt;name&gt; &lt;password&gt;
 
 Names are usually just a single word.  It can be your character's first name, last name, or a nickname, but the important thing is that it be //IC//.  Naming yourself "MasterBlaster" on a serious historical game is going to put people off from the start.  
 
@@ -168,9 +168,9 @@ Most games have a character generation system (Chargen for short) where you set 
 
     In this room, you will set up some basic info about your character's background.
     
-            +fullname <full name>
-            +age <age>
-            @sex me=<male or female>        
+            +fullname &lt;full name&gt;
+            +age &lt;age&gt;
+            @sex me=&lt;male or female&gt;        
 
 Side note: many games allow you to play more than one character.  The other characters are called "alts".  The marvels of a MUSH client make it easy to have multiple characters logged in and playing at the same time.  It's a lot like having two chat windows open in an instant messaging program.  You can talk in one while waiting for the other to respond.
 
@@ -194,7 +194,7 @@ Starting a scene on a MUSH first involves finding someone to play with.  Once yo
 
 Or someone might ask on the public channel:
 
-> <Public> Hanna wonders if anyone's up for a scene?
+> &lt;Public&gt; Hanna wonders if anyone's up for a scene?
 
 Then all you have to do is say 'yes' and chat OOCly with them to figure out where to go for the scene.  (There's nothing wrong with paging other people too - just don't be too discouraged if they're busy doing other things.)
 
@@ -270,7 +270,7 @@ The exact format of the room information will vary MUSH to MUSH, but the general
 
 * Room Name ("Welcome Room") tells you where you are.
 * Description ("The town proper is....") describes what you see.  In OOC areas like the welcome room, this contains info for you, the player.  In IC areas, it tells you what your character sees.
-* Contents ("Faraday") tells you who or what else is in the room with you. To get a closer look, type 'look <name>'.
+* Contents ("Faraday") tells you who or what else is in the room with you. To get a closer look, type 'look &lt;name>'.
 * The Exits list ("[BAR] Barber") tells you where you can go from here and what you type to get there.  In this case, typing 'BAR' (standard shorthand for 'out') will take you to the Barber's shop.
 * On some games, the room may also tell you the IC date, weather, and other special information.
 

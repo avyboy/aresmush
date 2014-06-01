@@ -11,3 +11,5 @@ Setting up an Ares server is designed to be a simple and painless process.  Ther
 The basic Ares installation includes not only the server itself (like Penn and Tiny) but also a rich suite of [Plugins]({{site.siteroot}}features/plugins.html).  The standard plugins cover everything from channels to chargen, so you should have everything you need for a typical game.
 
 Best of all - you don't need a coder to get Ares up and running.  Basic configuration is all done through simple text files.  Just install, edit, and go.
+
+See the [tutorials]({{site.siteroot}}tutorials) for more installation help.

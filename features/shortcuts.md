@@ -6,7 +6,7 @@ group: features
 ---
 {% include JB/setup %}
 
-Ares is new and different, but many of its players have been MUSHing for years.  Ares is designed to cater to them, too, through the **Shortcuts** system.   So if you're used to doing things a certain way - try it.  Chances are it'll still work on Ares.
+Ares is new and different, but many of its players have been MUSHing for years.  Ares is designed to cater to them, too, through the **Shortcuts** system.   Shortcuts are pre-configured for common Penn/MUX commands, and game admins can easily add more.  So if you're used to doing things a certain way - try it.  Chances are it'll still work on Ares.
 
 # Command Names
 
