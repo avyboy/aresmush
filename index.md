@@ -25,3 +25,7 @@ Some games will need advanced customizations or theme-specific code.  Traditiona
 # More Info
 
 Read more about the [Ares features]({{site.siteroot}}features/) to learn what's cool for players and admins.
+
+# Provide Feedback
+
+Got feedback?  [Send it in!]({{site.siteroot}}feedback.html)

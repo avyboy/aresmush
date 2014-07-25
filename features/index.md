@@ -20,3 +20,7 @@ Here you can find out about the cool new features available in AresMUSH.
 * **[Turnkey Installation]({{site.siteroot}}features/turnkey.html)** - A complete MUSH in a box.
 * **[Database]({{site.siteroot}}features/database.html)** - Use a real database.
 * **[Plugins]({{site.siteroot}}features/plugins.html)** - Flexible and extensible code plugins.
+
+# What's Not in Ares
+
+A few features were deliberately left on the [Chopping Block]({{site.siteroot}}features/chopping_block.html) for time, complexity, or philosophical reasons.

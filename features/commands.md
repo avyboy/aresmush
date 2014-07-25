@@ -16,8 +16,6 @@ Don't worry if you're an experienced MUSH player.  Thanks to the [Shortcuts]({{s
 
 Commands in Ares have no prefixes.  The who command is simply "who".  The combat command is simply "combat".  If you do accidentally type a prefix (@, +, or /), it'll be ignored, so +who, @who and /who all end up being just "who".  
 
-*Channels and exits are an exception to the 'no prefix' rule.*
-
 # Intuitive Names
 
 Commands in Ares have (hopefully) intuitive names.  The OOC profile commad is 'profile', not 'finger'.  The command to build a room is 'build', not 'dig'.  The [Shortcuts]({{site.siteroot}}features/shortcuts.html) system provides aliases for the old-school command names.
