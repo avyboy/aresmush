@@ -13,6 +13,7 @@ Here you can find out about the cool new features available in AresMUSH.
 
 * **[Commands]({{site.siteroot}}features/commands.html)** - Intuitive commands.
 * **[Shortcuts]({{site.siteroot}}features/shortcuts.html)** - Familiarity for Penn and MUX players.
+* **[Handles]({{site.siteroot}}features/handles.html)** - OOC Identity.
 * **[Little Things]({{site.siteroot}}features/littlethings.html)** - Small improvements can make a big difference.
 
 # What's Cool for Admins

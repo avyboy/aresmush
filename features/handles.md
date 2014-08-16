@@ -58,3 +58,5 @@ Even if you link characters to your handle, you get to choose who can see that l
 # How do I get a handle?
 
 You sign up for a handle on the AresMUSH.com website.  Handles are globally unique, which is just another way of saying there can only be one "@Faraday" across all AresMUSH games. 
+
+You *can* have multiple handles, but it offers limited utility so most people will probably only have one.
