@@ -20,7 +20,7 @@ There are some MU sub-communities where the players all know each other, and eve
 
 Also, anyone who's been MUSHing for a long time has probably seen bbposts like:  "Looking for SoAndSo from SuchAndSuchMUSH."  Games close, people drift.  Wouldn't it be nice to have a system that made it easier to find each other and stay in touch?
 
-Lastly, there's something to be said for being identifiable as a *player* and not just as your character(s).  Staff members already have that to a degree, wouldn't it be nice if everyone could?  
+Lastly, there's something to be said for being identifiable as a *player* and not just as your character(s).  Staff members already have that to a degree, wouldn't it be nice if everyone did?  
 
 # But what if I don't *want* people to know who I am?
 
