@@ -15,5 +15,8 @@ Ares tries to make players' lives easier.  Most of these are little conveniences
 * Edit commands (like desc/edit) that grab text easily into your client's input buffer.
 * A save/recall command to stash a pose you're working on to answer a page or some other distraction.
 * Insert blank lines or other text between poses to track them more easily.
-* Automatic and customizable idle messages in rooms and pages when you go AFK.
+* Automatic idle messages in rooms and pages when you go AFK.
+* An ic/reset command if you get stuck OOC, and a better status system to keep that from happening in the first place.
+* Staff member on/off duty status tied in with the status system.
+* Meetme multiple people at once.
 * *More coming eventually*

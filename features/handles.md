@@ -12,11 +12,11 @@ The **Handles** system is a major feature that differentiates AresMUSH from its 
 
 # What are Handles?
 
-Handles are an experiment in social media for MUSHing.  A handle is your **OOC** identity.  It represents you, the player.  You can **link** characters to your handle - even across multiple games - so that other players know who you are.
+Handles are an experiment in social media for MUSHing.  A handle is your **OOC** identity.  You can think of it as your AresMUSH account.  It represents you, the player.  You can **link** characters to your handle - even across multiple games - so that other players know who you are.
 
 # But why?
 
-There are some MU sub-communities where the players all know each other, and every time a new game opens there's a mad scramble to reconnect with old friends and figure out who everybody is.  Wouldn't it be nice if the game provided tools to help you do that?
+There are some MU sub-communities where the players all know each other.  Every time a new game opens there's a mad scramble to reconnect with old friends and figure out who everybody is.  Wouldn't it be nice if the game provided tools to help you do that?
 
 Also, anyone who's been MUSHing for a long time has probably seen bbposts like:  "Looking for SoAndSo from SuchAndSuchMUSH."  Games close, people drift.  Wouldn't it be nice to have a system that made it easier to find each other and stay in touch?
 
@@ -26,7 +26,7 @@ Lastly, there's something to be said for being identifiable as a *player* and no
 
 Some people value their privacy; we get that.  Handles are completely optional.  If you don't have one, you won't be able to access some of Ares' cool new features, but you will still be able to use all the basic MUSH features, just like on Penn/Tiny.
 
-There are also a whole bunch of privacy settings, which we'll get into more later.
+It doesn't have to be all or nothing, though.  There are a whole bunch of privacy settings, which we'll get into more later.
 
 # What do handles do?
 
@@ -52,11 +52,11 @@ Even if you have a handle, you get to choose which characters to link to it.  So
 Even if you link characters to your handle, you get to choose who can see that link.  When someone looks at your handle profile, will they see that character?  When someone looks at that character, will they see your handle?  This setting is **per-character**.
 
 * Public - Everyone can see this character linked to your handle.
-* Friends-Only - Only designated friends will see this character linked to your handle.
-* Admin-Only - Only game admin will see this character linked to your handle.   AresMUSH.com website admin(s) are bound by our [Privacy Policy]({{site.siteroot}}/privacy.html) and will not misuse your handle information.  Game admins are not, so remember, the only truly private character is one who is not linked to your handle at all.
+* Friends-Only - Only people on your friends list will see this character linked to your handle.
+* Admin-Only - Only game admin will see this character linked to your handle.   AresMUSH.com website admin(s) are bound by our [Privacy Policy]({{site.siteroot}}/privacy.html) and will not misuse your handle information.  Game admins are not, so remember - the only truly private character is one who is not linked to your handle at all.
 
 # How do I get a handle?
 
 You sign up for a handle on the AresMUSH.com website.  Handles are globally unique, which is just another way of saying there can only be one "@Faraday" across all AresMUSH games. 
 
-You *can* have multiple handles, but it offers limited utility so most people will probably only have one.
+You *can* have multiple handles.  You might do this to take advantage of the handle functionality within a *single game* without tying all your other characters to it.
