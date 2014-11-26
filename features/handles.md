@@ -37,11 +37,12 @@ People can access your handle profile and find out about you and what characters
     
 You can add other handles as your friends and share that friends list easily on all your games.
 
-    friend/add @Faraday --> Now I will be your friend across all your Ares games.
+    friend/add @Faraday --> Now I will be your friend across all Ares games.
     
 When you log into a game, you can see if any of your friends are playing there.
 
-    friends --> Shows whether any of your handle friends play here, and who they are
+    friends --> Shows whether any of your handle friends play here, 
+    and who they are
 
 Someday, handles might tie into more cross-game features, like being able to page people on different games (anyone remember MUDBot?)
 
@@ -49,7 +50,9 @@ Someday, handles might tie into more cross-game features, like being able to pag
 
 Some of the handles features may make you say, "OMG I don't want people to know this about me!"  **Don't worry.**  You have full control over who can see what.
 
-Handles are completely optional. The most extreme privacy setting is simply not to make a handle. You also choose which characters are **linked** to your handle, and who can see that link.   This setting is *per-character*, so you can have some public and restrict others.
+Handles are completely optional. The most extreme privacy setting is simply not to make a handle. 
+
+You also choose which characters are **linked** to your handle, and who can see that link.   This setting is *per-character*, so you can have some public and restrict others.
 
 **Public** - Everyone will see this character listed on your handle profile.  Anyone can access your handle profile through your character name (e.g. 'profile Cate' will bring up the profile for @Faraday).  Your handle name will show up in certain OOC commands (like channels and who list).  
 
@@ -61,8 +64,8 @@ Handles are completely optional. The most extreme privacy setting is simply not 
 
 # How do I get a handle?
 
-Handles are created and managed through AresCentral (mush.aresmush.com port 7206), a social MU devoted to all things AresMUSH.  This server is the central authority for handles, ensuring that handles are unique (even across different games).  
+Handles are created and managed through AresCentral (mush.aresmush.com port 7206), a social MU devoted to all things AresMUSH.  This server is the central authority for handles, ensuring that handles are unique across all Ares games. 
 
 To create a handle, connect to AresCentral and make yourself a character with the name you want to use as your handle. AresCentral is the only game where your character name and handle name need to be the same.  
 
-The ideal situation is for each player to have only one handle.  Often people use their wikidot account name as their handle name.  You *can* have more than one character if you really want to, but it's kind of like having multiple Facebook accounts - your splitting up your identity and your friends lists.
+The ideal situation is for each player to have only one handle.  Often people use their wikidot account name as their handle name.  You *can* have more than one character if you really want to, but it's kind of like having multiple Facebook accounts - you're splitting up your identity and your friends lists.
