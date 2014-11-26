@@ -14,6 +14,8 @@ Ares provides a number of cross-game features, the biggest of which is the **Han
 
 Handles bring a little taste of social media to MUSHing. A handle is your OOC identity, unique across all Ares games.  Through your handle, people can identify you as a *player*, not just as a character.
 
+Handles have an @-sign in front to distinguish them from regular player names.  I'm @Faraday.
+
 # But why?
 
 There are some MU sub-communities where the players all know each other, and we've all seen posts like "Looking for SoAndSo from SuchAndSuchMUSH."  Games close, people drift.
