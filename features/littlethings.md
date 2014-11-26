@@ -19,4 +19,6 @@ Ares tries to make players' lives easier.  Most of these are little conveniences
 * An ic/reset command if you get stuck OOC, and a better status system to keep that from happening in the first place.
 * Staff member on/off duty status tied in with the status system.
 * Meetme multiple people at once.
+* 'Do not disturb' page setting, which converts incoming pages to mails.
+* A better AFK system that lets you easily specify an idle message and warns people when you're really idle.
 * *More coming eventually*

@@ -35,3 +35,10 @@ Additional ansi codes include:
     %xI - End inverse
     %xh - Highlight color (bold)
     %xH - End bold (but doesn't end any colors)
+
+# FANSI (even more colors!)
+
+Ares also supports [FANSI](http://fansi.org/Index.aspx), an extended ANSI set with 256 colors.  Only certain clients support FANSI.  FANSI codes go from 1 to 256.
+
+    %x1 to %x256 - FANSI color code to change foreground color.
+    %X1 to %X256 - FANSI color code to change background color.

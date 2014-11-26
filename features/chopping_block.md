@@ -37,6 +37,12 @@ But why should that be necessary?  Wouldn't it be much easier if the teleport co
      
 Ares commands are designed to work on lists where it makes sense, eliminating the need for dolists.  At least, that's the theory.  Maybe I missed some cases; if so, just provide an example in [Feedback]({{site.siteroot}}/feedback.html).
 
+# Darkness
+
+You can't go dark on Ares.  Why not?  Because I find the idea of lurking admins to be creepy, and very big-brother-ish.
+
+If you don't want to be bothered, there's a 'duty' command to mark yourself as off-duty.  You can also use the 'do not distrub' feature on pages.
+
 # Force
 
 In Ares, admins cannot force players to execute commands, mainly because I think it's creepy.  Admin-only commands should exist to do the things you need to do.  As with dolist, if you find something missing, just provide [Feedback]({{site.siteroot}}/feedback.html).
