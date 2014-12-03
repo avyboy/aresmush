@@ -22,5 +22,8 @@ Ares supports translation files, which allow you to translate the game into othe
             other: "%{count} spieler angeschlossen."
         
 
+You can also localize things like date and time formats.
+
 The commands themselves are not translated, but the [Shortcuts]({{site.siteroot}}features/shortcuts.html) system allows you to define localized command names for commands and switches.
 
+It would be possible to take the localization even further, but I wanted to test the waters before putting a lot more work into it.

@@ -12,7 +12,7 @@ Ares provides a number of cross-game features, the biggest of which is the **Han
 
 # What are Handles?
 
-Handles bring a little taste of social media to MUSHing. A handle is your OOC identity, unique across all Ares games.  Through your handle, people can identify you as a *player*, not just as a character.
+Handles bring a little taste of social media to MUSHing. A handle is your OOC identity, used across all Ares games.  Through your handle, people can identify you as a *player*, not just as a character.
 
 Handles have an @-sign in front to distinguish them from regular player names.  I'm @Faraday.
 
@@ -54,11 +54,11 @@ Handles are completely optional. The most extreme privacy setting is simply not 
 
 You also choose which characters are **linked** to your handle, and who can see that link.   This setting is *per-character*, so you can have some public and restrict others.
 
-**Public** - Everyone will see this character listed on your handle profile.  Anyone can access your handle profile through your character name (e.g. 'profile Cate' will bring up the profile for @Faraday).  Your handle name will show up in certain OOC commands (like channels and who list).  
+* **Public** - Everyone will see this character listed on your handle profile.  Anyone can access your handle profile through your character name (e.g. 'profile Cate' will bring up the profile for @Faraday).  Your handle name will show up in certain OOC commands (like channels and who list).  
 
-**Friends-Only (Default)** - Only people on your friends list will see this character listed on your handle profile.  Only your friends can access your handle profile through your character name. Your handle name will NOT show up in OOC commands.  
+* **Friends-Only (Default)** - Only people on your friends list will see this character listed on your handle profile.  Only your friends can access your handle profile through your character name. Your handle name will NOT show up in OOC commands.  
 
-**Private(*)** - Nobody will see this character listed on your handle profile, or be able to access your handle profile through your character name.
+* **Private(*)** - Nobody will see this character listed on your handle profile, or be able to access your handle profile through your character name.
 
 > Why is there a '*' by "private"?  Because true privacy on a MUSH is an illusion.  Remember that the admins of any game you log into have have access to your IP address, the game database, and anything you type.  It's not that hard to identify alts even without handles.  AresCentral admins are bound by our [privacy policy]({{site.siteroot}}/privacy.html), but other games may not be.
 
@@ -68,4 +68,4 @@ Handles are created and managed through AresCentral (mush.aresmush.com port 7206
 
 To create a handle, connect to AresCentral and make yourself a character with the name you want to use as your handle. AresCentral is the only game where your character name and handle name need to be the same.  
 
-The ideal situation is for each player to have only one handle.  Often people use their wikidot account name as their handle name.  You *can* have more than one character if you really want to, but it's kind of like having multiple Facebook accounts - you're splitting up your identity and your friends lists.
+The ideal situation is for each player to have only one handle.  Often people use their wikidot account name as their handle name.  You *can* have more than one handle if you really want to, but it's kind of like having multiple Facebook accounts - you're splitting up your identity and your friends lists.
