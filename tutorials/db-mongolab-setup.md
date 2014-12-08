@@ -35,6 +35,10 @@ Here are step-by-step instructions for setting up Ares with [MongoLab](https://m
 
     ![create new]({{site.siteroot}}assets/mongo4.png)
 
-6. If you're going to be doing code development, repeat steps 2-5 for a test database.  Name it something like "mymush_test".
+6. If you want multiple database admins, you can create a second account user under Account -> Account Users -> Add Account User.  Give that person their own username and password, and they'll be able to log in and manage the database too.
 
 You're all set!   You will need the username, password, db name and hostname when configuring Ares, so make a note of them.
+
+# Next Step
+
+Once your database is ready, the next step is to [Install The Game]({{site.siteroot}}tutorials/install-code.html)

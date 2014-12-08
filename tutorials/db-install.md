@@ -9,39 +9,32 @@ nav_order: 4
 
 # Installing the Database
 
-Penn and Tiny store their data in a single file, but Ares uses a real database: MongoDB.  Most of you are probably familiar with SQL databases.  MongoDB is similar, but without the SQL.  Because the database is seperate from the game itself, you have a couple options for how to install it.
+Penn and Tiny store their data in a single text file, but Ares uses a real database: MongoDB.  Most of you are probably familiar with SQL databases.  MongoDB is similar, but without the SQL.  Using a standard database makes it easy to get at your data, make backups, or even integrate it with a website.
 
-## Cloud Hosting
+Because the database is separate from the game itself, you don't have to put your database on the same server as the MUSH.
 
-Cloud hosting is the best option for most games, good for people with limited server experience and anyone who just wants something quick and easy.  
+## MongoLab
 
-With cloud hosting, your data lives on a special database server in the cloud.  There's a nice graphical interface, making it easy to set up and manage your DB.  Many offer automatic daily backups and easy restores, keeping your data safe.  Since your data and game live on different servers, you have a slightly higher chance for lag and downtime, but that's a small price to pay for the ease of administration.
+MongoLab is a cloud database host that is simple and free, making it a good choice for hosting your Ares database.  Your data lives on a database server in the cloud.  There's a nice graphical interface for managing your DB, and daily backups.
 
-There are several MongoDB cloud hosting services.  I've had good experience with MongoLab.  It's simple, fast, and free. Detailed instructions for setting up your game with MongoLab can be found below.
+See [Setting up Ares with MongoLab]({{site.siteroot}}tutorials/db-mongolab-setup.html) for detailed installation instructions.
+
+> Full disclosure:  By having your database on a different server, there is a small chance of increased lag (if there's a bottleneck between the servers) or added downtime (because both your servers will have different maintenance windows).  But it's still the best option for anyone with limited server admin experience, or anyone who just wants something quick and easy.
 
 ## Self-Install
 
-If you have the technical know-how and sufficient permissions on your MU server, you can install MongoDB on the server yourself.  See the [MongoDB website](http://docs.mongodb.org/manual/installation/) for help.
+There's nothing magical about MongoLab.  You can certainly use a different cloud host, or even set up MongoDB on the same server as your MUSH if you have the technical know-how and sufficient permissions.  See the [MongoDB website](http://docs.mongodb.org/manual/installation/) for help.
 
-# Creating the Ares DB
+If you use one of these options, you will need to:
 
-No matter which host you choose, you'll need to create the Ares DB using the same basic steps.
+1. Install MongoDB or select a host.
+2. Create the Ares database.
+3. Make it private.
+4. Create a user who can access it.
 
-1. Create the database.
-2. Make it private.
-3. Create a user who can access it.
+# Next Step
 
-For detailed instructions specific to your host, see the following articles:
-
-* [Setting up Ares with MongoLab]({{site.siteroot}}tutorials/db-mongolab-setup.html).
-* *TODO - Shell commands coming eventually*
-
-# Configuring the Game
-
-TODO - Coming Soon
-
-
-
+Once your database is ready, the next step is to [Install The Game]({{site.siteroot}}tutorials/install-code.html)
 
 
 
