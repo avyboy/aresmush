@@ -125,6 +125,8 @@ Some configuration items apply to the entire game.  These options can be found i
 * Names you don't want people to use - like feature chars (names.yml)
 * Line formats (skin.yml)
 
+> Don't forget to reload the configuration using 'load config' on the game after changing config options.
+
 ### Plugin Config
 
 Virtually all the code in Ares is a Plugin, even systems that are integral to the game like movement and poses.  Most plugins offer a variety of configuration options, found in YAML files within each plugin's config directories. The config files contain instructions explaining what the options do.  For example:
@@ -135,6 +137,8 @@ Virtually all the code in Ares is a Plugin, even systems that are integral to th
     max_luck: 5
 
 Most plugins also have configuration for [help]({{site.siteroot}}tutorials/help.html) and [shortcuts]({{site.siteroot}}tutorials/shortcuts.html), but you shouldn't need to mess with those unless you're doing more advanced coding.
+
+> Don't forget to reload the configuration using 'load config' on the game after changing config options.
 
 ### Game Files
 
@@ -153,6 +157,8 @@ Some plugins have templates that let you configure the way things are displayed.
 Descriptions, who, mail and bulletin boards are all examples of systems that support customizable templates.
 
 It's pretty easy to make simple tweaks to templates: moving stuff around or deleting things your game doesn't use.  But anything more fancy than that is going to involve some coding.  See the [templates]({{site.siteroot}}tutorials/templates.html) tutorial for more info.
+
+> Don't forget to reload the configuration using 'load &lt;plugin name&gt;' on the game after changing a template.
 
 # Next Step
 
