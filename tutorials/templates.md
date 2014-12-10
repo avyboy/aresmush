@@ -6,7 +6,7 @@ group: tutorials
 ---
 {% include JB/setup %}
 
-Many Ares plugins support **Templates**, which allow you to customize the appearance of the who list, character sheets, room descriptions and more.  
+Many Ares plugins support **Templates**, which allow you to customize the appearance of the who list, character sheets, room and character descriptions and more.  
 
 # Out of the Box Templates
 
@@ -67,7 +67,7 @@ or maybe you want to make it more of a unified display with no explanatory tags:
 
 Just by editing the text, you can change the template.
 
-> A note about translations:  AresMUSH is designed to support multiple languages.  In the  templates you'll mostly see special translation field names rather than raw text.  For instance:  <%= t('profile.fullname_title') %> instead of "Full Name:".  You don't need to worry about this when doing your own customizations unless you plan to share them with others.
+> A note about translations:  AresMUSH is designed to support multiple languages.  In the  templates you'll mostly see special translation field names rather than raw text.  For instance:  <%= t('profile.fullname_title') %> instead of "Full Name:".  You don't need to worry about this when doing your own customizations.
 
 # Advanced Customization
 
@@ -75,7 +75,7 @@ If you want to go above and beyond simple customizations using the available fie
 
 Ares templates actually use a standard Ruby template system called [Erubis](http://www.kuwata-lab.com/erubis/users-guide.html), which is used in Ruby on Rails web programming.   In a nutshell, what you're doing is embedding Ruby code alongside the text.  For those familiar with PHP, it's a basically the same as embedding PHP code snippets inside your HTML.
 
-You can make the embedded code as fancy as you want, but it's usually best to keep it simple and put the majority of the logic in the **Template Helper Objects**.  Each plugin provides one or more of these helpers, whose purpose is to wrap up the data fields in methods so you can access them easily from your template.
+You can make the embedded code as fancy as you want, but it's usually best to keep it simple and put the majority of the logic in the **Template Helper Objects**.  Each plugin provides one or more of these helpers, whose purpose is to wrap up the data up in methods so you can access them easily from your template.
 
 For example, the who list plugin provides the **WhoTemplate** object for the basic who data.  One of the things in there is a list of **WhoClientTemplate** objects, one for each connected player (aka client).  These two helper objects provide all the data to your who list template.  When you say <%= online_total %> in the template, what you're really doing is accessing the "online_total" method of the WhoTemplate object:
 
@@ -107,7 +107,7 @@ A number of standard functions are available to help you in either your template
     right(string, width, padding char - defaults to space)
     center(string, width, padding char - defaults to space)
 
-**One Line Block** - Sometimes you'll have a template that wants to show a lot of stuff on one line.  Since whitespace matters in templates, this could lead to some pretty jumbled text.  That's where the one_line helper comes in.  Just slap it around some code, and it will strip off linebreaks for all the text in-between.  This lets you put the fields on separate lines in the //template//, but still have them show up all on one line when it's displayed.
+**One Line Block** - Sometimes you'll have a template that wants to show a lot of stuff on one line.  Since whitespace matters in templates, this could lead to some pretty jumbled text.  That's where the one_line helper comes in.  Just slap it around some code, and it will strip off linebreaks for all the text in-between.  This lets you put the fields on separate lines in the //template//, but still have them show up all on one line when it's displayed on the //game//.
 
     <% one_line do %>
     <%= field1 %>
@@ -115,7 +115,7 @@ A number of standard functions are available to help you in either your template
     etc.
     <% end %>
 
-**Trim Mode** - Another trick for controlling whitespace is the trim mode.  By putting a "-" in front of the end of a field tag, you can tell the template engine to NOT put a linebreak after that field.  This only works if the field tag is at the end of a line.   It is useful to note that you don't need to do this for control tags (<% %>); they never have linebreaks after them anyway.
+**Trim Mode** - Another trick for controlling whitespace is the trim mode.  By putting a "-" in front of the end of a field tag, you can tell the template engine to NOT put a linebreak after that field.   It is useful to note that you don't need to do this for control tags (<% %>); they never have linebreaks after them anyway.
  
     <% clients.each do |c| %> 
     <%= field1 -%>

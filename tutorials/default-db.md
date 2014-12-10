@@ -57,6 +57,6 @@ The default DB comes with two bulletin boards.   You can rename, configure or de
 
 # Next Step
 
-The next step is to [Customize the Game]({{site.siteroot}}tutorials/customize-game.html)
+Now that you have the code, the next step is to [Start the Game]({{site.siteroot}}tutorials/start-game.html)
 
 

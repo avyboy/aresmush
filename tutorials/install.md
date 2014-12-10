@@ -19,8 +19,8 @@ If at any point you run into trouble, see [Getting Help]({{site.siteroot}}tutori
 * [Installing the Game]({{site.siteroot}}tutorials/install-code.html)
 * [Basic Configuration]({{site.siteroot}}tutorials/basic-config.html)
 * [Default Database]({{site.siteroot}}tutorials/default-db.html)
-* [Customize the Game]({{site.siteroot}}tutorials/customize-game.html)
 * [Start the Game]({{site.siteroot}}tutorials/start-game.html)
+* [Customize the Game]({{site.siteroot}}tutorials/customize-game.html)
 
 
 ## Advanced
