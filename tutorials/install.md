@@ -23,3 +23,7 @@ If at any point you run into trouble, see [Getting Help]({{site.siteroot}}tutori
 * [Start the Game]({{site.siteroot}}tutorials/start-game.html)
 
 
+## Advanced
+
+* [Advanced Server Setup]({{site.siteroot}}tutorials/server-setup.html)
+

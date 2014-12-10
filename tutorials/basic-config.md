@@ -32,7 +32,7 @@ The database information was set during [Database Installation]({{site.siteroot}
 
 Some of the server information comes from your MUSH hosting provider.  They will assign you a host name and either assign or give you guidance on selecting a port number.
 
-> If you're using MongoLab or another database cloud host, you will have *two* different host names, one for the database (e.g. ds059170.mongolab.com) and one for the game (e.g. mygame.somehost.com).  You only need the database one when you do the database configuration.  The MUSH host one is your main game address.
+> If you're using MongoLab or another database cloud host, you will have *two* different host names, one for the database (e.g. ds059170.mongolab.com) and one for the game (e.g. mygame.somehost.com).  The database one is only used when you do the database configuration.  The MUSH host one is your main game address.
 
 * Host name - The game server name.  *Example: mygame.somehost.com*
 * Port - A 4-digit number that tells games apart on the same server.  *Example: 4201*
@@ -91,7 +91,7 @@ You will see a whole bunch of messages print out, but after about a minute they'
 
 Try connecting to it via your favorite MUSH client.  Use the same hostname and port number you used in the server info configuration (e.g. mygame.somehost.com 4201).
 
-> Note: The game will only stay running until you hit CONTROL-C or close down your connection.  This is a quick test, and not the usual way you run Ares.  Hit CONTROL-C to stop it when you're done.
+> Note: The game will only stay running until you hit CONTROL-C, close down your connection, or hit the inactivity timeout.  This is a quick test, and not the usual way you run Ares.  Hit CONTROL-C to stop it when you're done.
 
 If your game doesn't start, review the database.yml and server.yml files in game/config to ensure they're correct.  If none of that helps, see [Getting Help]({{site.siteroot}}tutorials/getting-help.html).
 

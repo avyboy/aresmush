@@ -15,7 +15,7 @@ Because the database is separate from the game itself, you don't have to put you
 
 ## MongoLab
 
-MongoLab is a cloud database host that is simple and free, making it a good choice for hosting your Ares database.  Your data lives on a database server in the cloud.  There's a nice graphical interface for managing your DB, and an easy way to do backups and restores.
+MongoLab is a cloud database host that is simple and free, making it a good choice for hosting your Ares database.  Your data lives on a database server in the cloud.  There's a nice graphical interface for managing your DB.
 
 See [Setting up Ares with MongoLab]({{site.siteroot}}tutorials/db-mongolab-setup.html) for detailed installation instructions.
 
@@ -23,7 +23,7 @@ See [Setting up Ares with MongoLab]({{site.siteroot}}tutorials/db-mongolab-setup
 
 ## Self-Install
 
-If you don't want to use MongoLab, you can certainly use a different cloud host.  You can even set up MongoDB on the same server as your MUSH if you have the technical know-how and sufficient permissions. 
+If you don't want to use MongoLab, you can certainly use a different cloud host.  [MMS](https://mms.mongodb.com) looks promising, but I haven't used them.  You can even set up MongoDB on the same server as your MUSH if you have the technical know-how and sufficient permissions. 
 
 If you use one of these options, you will need to:
 

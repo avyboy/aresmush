@@ -14,10 +14,10 @@ From your [MUSH server shell]({{site.siteroot}}tutorials/server-connect.html), t
     cd aresmush (if you aren't there already)
     bin/startares
 
-> The difference between 'devstart' and 'startares' is that the latter will continue to run even after you log off, and will not display error messages on the screen.  To 
+> The important difference between 'devstart' and 'startares' is that the latter will continue to run even after you log off.  That is what you want to use for normal operation.
 
 # Next Step
 
 That's it!  Enjoy your game!
 
-You may wish to check out the more advanced tutorials in the **Managing the Game** and **Coding for Ares** sections.
+You may wish to check out the more [advanced tutorials]({{site.siteroot}}tutorials/index.html) in the **Managing the Game** and **Coding for Ares** sections.

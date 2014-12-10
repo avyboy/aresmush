@@ -15,7 +15,7 @@ AresMUSH has a couple installation requirements above and beyond what Penn and T
 
 > *Note!* This is not meant to be an endorsement of any particular host.
 
-Feel free to use a host that's not on this list, as long as you contact them to be sure that these things are supported or can be installed.  
+Feel free to use a host that's not on this list, as long as you contact them to be sure that these things are supported or can be installed.  If they're willing to help you out, or if you have admin rights on a machine, you can check out [Advanced Server Setup]({{site.siteroot}}tutorials/server-setup.html) for instructions on setting up these requirements.
 
 # Next Step
 
