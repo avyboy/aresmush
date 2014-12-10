@@ -13,11 +13,12 @@ Ares comes with a default database that helps the game to be fully-functional ou
 
 ## System Characters
 
-There are a couple system characters that server special functions.  You can rename them, but you can't delete them or change their function.
+There are a couple system characters that serve special functions.  You can rename them, but you can't delete them or change what they do.
 
 * Headwiz (role: admin) - the master admin account.
 * System (role: admin) - used for automated bbposts, mails and such.
-* Builder (role: builder) - a builder character.  
+
+There's also a stock 'Builder' character for your convenience, although anyone with the admin or builder roles can build things.
 
 > All system characters have the default password "change_me!".  Please change it to something secure at your earliest convenience using the 'password/rest' command in-game.
 

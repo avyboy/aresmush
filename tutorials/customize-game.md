@@ -9,7 +9,6 @@ nav_order: 4
 
 # Customize the Game
 
-TODO - Coming soon
 
 
 # Next Step

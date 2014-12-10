@@ -42,3 +42,5 @@ Ares also supports [FANSI](http://fansi.org/Index.aspx), an extended ANSI set wi
 
     %x1 to %x256 - FANSI color code to change foreground color.
     %X1 to %X256 - FANSI color code to change background color.
+    
+> See the **colors** command in-game to test whether FANSI codes work in your cilent, and to see what all the different number values look like.

@@ -9,27 +9,14 @@ nav_order: 4
 
 # Choosing a Host
 
-AresMUSH has a couple installation requirements above and beyond what Penn and Tiny need.
-
-* Ruby
-* Git
-
-Before selecting a MUSH host, you should check to be sure that these things are supported or can be installed.  Here is a list of MU hosts that are known to offer Ares-compatible hosting packages.  
-
-> *Note!* This is not meant to be an endorsement of any particular host.
+AresMUSH has a couple installation requirements above and beyond what Penn and Tiny need, namely **Ruby** and **Git**.  Here is a list of MU hosts that are known to offer Ares-compatible hosting packages:  
 
 *TODO Coming Someday - MU host list*
 
-# Connecting to the Server
+> *Note!* This is not meant to be an endorsement of any particular host.
 
-Once you have a hosting account set up, you will need to connect to the server directly.  Typically this is done with the 'ssh' or 'telnet' programs (ssh is recommended because it is more secure, like using https in your web browser).  
+Feel free to use a host that's not on this list, as long as you contact them to be sure that these things are supported or can be installed.  
 
-**On a Mac**
+# Next Step
 
-1. Open Terminal.
-2. Type 'ssh &lt;username&gt;@&lt;hostname&gt;' or 'telnet &lt;hostname&gt;'.
-3. Enter your username (if needed) and password.
-
-**On a PC**
-
-You may be able to run 'telnet &lt;hostname&gt;' from the command prompt, but it would probably be easier to install a telnet or SSH program.  [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) and [WinSCP](http://winscp.net/eng/docs/free_ssh_client_for_windows) are easy to use and free.  Just enter your host information in the program and connect.
+Now that you have a host, the next step is to [Connect to the Server]({{site.siteroot}}tutorials/server-connect.html)
