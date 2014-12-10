@@ -94,10 +94,7 @@ The cron system handles things that run periodically, like the weekly cookie awa
 
 > Important!  In the cron configuration, comment out the pieces you're not using, but be careful - if you comment out hour and minute it will run EVERY hour and EVERY minute.  Probably not what you want.
 
-
-## Things to Customize
-
-### Admin Characters
+## Admin Characters
 
 From the MUSH login screen, create your very own admin character.
 
@@ -116,7 +113,7 @@ Now give your admin character super powers.
 
 Ares, by default, does not have different levels of admins (Wiz/Roy/Judge).  There are simply admins and non-admins.  But there is a rich [roles]({{site.siteroot}}tutorials/roles.html) system that you can set up to give you more fine-tuned control over who can do what.
 
-### Game Config
+## Game Config
 
 Some configuration items apply to the entire game.  These options can be found in YAML files in the *aresmush/game/config* directory.  A couple things in particular you might wish to change:
 
@@ -127,7 +124,7 @@ Some configuration items apply to the entire game.  These options can be found i
 
 > Don't forget to reload the configuration using 'load config' on the game after changing config options.
 
-### Plugin Config
+## Plugin Config
 
 Virtually all the code in Ares is a Plugin, even systems that are integral to the game like movement and poses.  Most plugins offer a variety of configuration options, found in YAML files within each plugin's config directories. The config files contain instructions explaining what the options do.  For example:
 
@@ -140,14 +137,14 @@ Most plugins also have configuration for [help]({{site.siteroot}}tutorials/help.
 
 > Don't forget to reload the configuration using 'load config' on the game after changing config options.
 
-### Game Files
+## Game Files
 
 Big blocks of text are kept in separate files, specifically in *game/files*.  They include:
 
 * Login screen - note that in Ares you can use ansi and other [format codes]({{site.siteroot}}tutorials/formatting.html) on your login screen.
 * Terms of Service - displayed to all new players and they must acknowledge it to play.  Can be disabled through the connect configuration.
 
-### Templates 
+## Templates 
 
 Some plugins have templates that let you configure the way things are displayed.  Template files are kept in text files within each plugin's templates directories. For example:
 

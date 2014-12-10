@@ -12,6 +12,8 @@ nav_order: 4
 
 TODO TODO TODO TODO
 
+## Log Files
+
 ## Shutting Down
 
 If you ever need to stop your game, the best way is to use the "shutdown" command in-game.
