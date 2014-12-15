@@ -23,7 +23,7 @@ Here you can find out about the cool new features available in AresMUSH.
 * **[Database]({{site.siteroot}}features/database.html)** - Use a real database.
 * **[Plugins]({{site.siteroot}}features/plugins.html)** - Flexible and extensible code plugins.
 * **[Localization]({{site.siteroot}}features/localization.html)** - Run a game in another language.
-* **[FANSI Support]({{site.siteroot}}tutorials/formatting.html)** - 256 ansi colors available (requires a supporting client).
+* **[FANSI Support]({{site.siteroot}}tutorials/coding/formatting.html)** - 256 ansi colors available (requires a supporting client).
 
 
 # What's Not in Ares
