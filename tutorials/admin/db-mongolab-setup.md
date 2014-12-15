@@ -9,6 +9,8 @@ nav_order: 4
 
 Here are step-by-step instructions for setting up Ares with [MongoLab](https://mongolab.com/), a cloud hosting service for MongoDB.
 
+> Note:  These instructions and screenshots were current as of the time of this writing, but MongoLab can change their interface at any time.  If you have trouble figuring out the install options, don't hesitate to [Get Help]({{site.siteroot}}tutorials/getting-help.html).
+
 1. Create a MongoLab account.  
 
 2. Click 'Create New' to create a new db.

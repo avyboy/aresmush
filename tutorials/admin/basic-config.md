@@ -17,7 +17,7 @@ Before you actually do that, make sure you have the necessary information on han
 
 ### Database Info
 
-The database information was set during [Database Installation]({{site.siteroot}}tutorials/server-connect.html).   
+The database information was set during [Database Installation]({{site.siteroot}}tutorials/admin/server-connect.html).   
 
 > If you are using [MongoLab](http://www.mongolab.com), you can review this information by logging into your account and looking at your dashboard.  It will be shown in a connection string like this:  host:port/database_name.  For example: ds059170.mongolab.com:51970/footest
 
@@ -46,7 +46,7 @@ The rest of the server information is yours to choose.  This information is also
 
 ## Running the Configure Command
 
-From your [MUSH server shell]({{site.siteroot}}tutorials/server-connect.html), type:
+From your [MUSH server shell]({{site.siteroot}}tutorials/admin/server-connect.html), type:
 
     cd aresmush (if you aren't there already)
     bin/configure
@@ -64,7 +64,7 @@ Now we will initialize the default database.
 
 > **IMPORTANT!  This will wipe out anything that's already in the database, so only use it when installing fresh.**
 
-From your [MUSH server shell]({{site.siteroot}}tutorials/server-connect.html), type:
+From your [MUSH server shell]({{site.siteroot}}tutorials/admin/db-install.html), type:
 
     cd aresmush (if you aren't there already)
     bin/init
@@ -82,7 +82,7 @@ You should see a whole bunch of spam as the game initializes, then messages tell
 
 At this point, your game should be ready to go.  Try running it in 'developer' mode.
 
-From your [MUSH server shell]({{site.siteroot}}tutorials/server-connect.html), type:
+From your [MUSH server shell]({{site.siteroot}}tutorials/admin/server-connect.html), type:
 
     cd aresmush (if you aren't there already)
     bin/devstart
@@ -97,4 +97,4 @@ If your game doesn't start, review the database.yml and server.yml files in game
 
 # Next Step
 
-Find out more about what's in the [Default Database]({{site.siteroot}}tutorials/default-db.html).
+Find out more about what's in the [Default Database]({{site.siteroot}}tutorials/admin/default-db.html).
