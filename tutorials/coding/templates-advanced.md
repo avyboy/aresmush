@@ -30,24 +30,6 @@ For example, the who list plugin provides the **WhoTemplate** helper.  When you 
 
 By adding or changing these helper methods, you can tweak the display of the template.
 
-# Sub-Templates
-
-When a template shows a list of something, it uses a *different* template helper for each item in the list.  For example, the WhoTemplate helper class is for the who list as a whole, but the WhoClientTemplate helper class is for each character (aka client).
-
-When the template is looping through the characters in the who list:
-
-    <% clients.each do |c| -%> 
-      <%= c.status %-> 
-      <%= c.name %-> 
-      etc.
-    <% end %>
-
-What it's actually doing is calling the 'status' and 'name' methods on the WhoClientTemplate helper class.
-
-      def name
-        left(@char.name, 22)
-      end
-
 # Adding Tags
 
 Let's say you want to add a tag to the 'who' list to show each character's actor.  You would just add a new method to the template helper 
@@ -65,12 +47,18 @@ Now you can use it in your template:
 Many templates have lists of items.  To display each item in the list requires a special loop tag using the word 'each'.  Here's how it looks:
 
     <% clients.each do |c| -%> 
-      <%= c.status %-> 
       <%= c.name %-> 
       etc.
     <% end %>
 
 The stuff in-between the "each" line and the "end" line is done once for each item in the list.
+
+Often the template will have methods to format the pieces of the list data.  For example, if you need to do some fancy formatting on the name you might have a method like:
+
+    <% clients.each do |c| -%> 
+      <%= char_name(c) %-> 
+      etc.
+    <% end %>
 
 # Conditional Tags
 

@@ -84,7 +84,7 @@ Removing things is easy too.  Don't want the actor field displayed?  Just axe it
 
 Many templates have extra tags that don't appear in the out-of-the-box template, which you can add if you like.  How do you know what tags are available?  Every template has a list, found in the [plugin documentation]({{site.siteroot}}rdoc/).  
 
-For example, looking at the character description template (AresMUSH::Describe::CharacterTemplate) we can see the tags used above - name, description, actor - but also some other ones, like afk_message and rank.
+For example, looking at the character description template (AresMUSH::Describe::CharacterTemplate) we can see the tags used above - name, description, actor - but also some other ones, like rank.
 
 Let's say you're on a military game and you want to add rank to the description template.  Just chuck it in there where you want it to appear - perhaps after full name:
 
@@ -110,7 +110,6 @@ Sometimes the formatting appears in the template itself (like the %xg tag for gr
 Many templates contain lists, such as the list of players in the Who template.  To display each item in the list requires a special loop tag using the word 'each'.  Here's how it looks:
 
     <% clients.each do |c| -%> 
-      <%= c.status %-> 
       <%= c.name %-> 
       etc.
     <% end %>
