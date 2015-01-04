@@ -7,9 +7,11 @@ nav_order: 4
 ---
 {% include JB/setup %}
 
+**TODO TODO TODO -- ROUGH DRAFT**
+
 # Advanced Installation
 
-* [Advanced Coder Setup]({{site.siteroot}}tutorials/admin/coder-setup.html)
+* [Advanced Coder Setup]({{site.siteroot}}tutorials/coding/coder-setup.html)
 
 
 ## Source Control

@@ -7,6 +7,9 @@ nav_order: 4
 ---
 {% include JB/setup %}
 
+
+**TODO TODO TODO -- ROUGH DRAFT**
+
 # Advanced Coder Setup
 
 If you are intending to make extensive custom code changes to Ares, I highly recommend that you follow these instructions to set yourself up with a better coding environment.  It may take some extra effort at first, but trust me - it will make your life **so** much easier in the long run!
