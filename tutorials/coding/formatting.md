@@ -49,10 +49,12 @@ Ares also supports [FANSI](http://fansi.org/Index.aspx), an extended ANSI set wi
 
 # Functions
 
-Ares in general doesn't support functions the way you're used to from MUSHCode.  But there are a few for backwards-compatibility to avoid driving people insane.
+Ares in general doesn't support functions the way you're used to from MUSHCode.  But there is **limited** support for a few for backwards-compatibility. 
 
     [space(<number of spaces>)] - blank spaces
     [center(<text>,<length>,<optional padding string>)] - center text
     [left(<text>,<length>,<optional padding string>)] - left align text
     [right(<text>,<length>,<optional padding string>)] - right a lign text
     [ansi(<code>,<text>)] - ansify text
+    
+> The most important limitation is that you can't embed other codes or functions within functions.  [center(ABC,78)] will work.  [center(%BA%B,78)] will not change the %B's to spaces.

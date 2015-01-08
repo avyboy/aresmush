@@ -32,33 +32,27 @@ By adding or changing these helper methods, you can tweak the display of the tem
 
 # Adding Tags
 
-Let's say you want to add a tag to the 'who' list to show each character's actor.  You would just add a new method to the template helper 
+Let's say you want to add a tag to the 'who' list to show the weather.  You would just add a new method to the template helper 
 
-    def foo
-       "FOO!"
+    def weather
+       "It is sunny."  
+       # Obviously you'd need fancier code here to actually figure out the weather.
     end  
 
 Now you can use it in your template:
 
-    <%= foo %>
+    <%= weather %>
 
 # Looping Tags
 
 Many templates have lists of items.  To display each item in the list requires a special loop tag using the word 'each'.  Here's how it looks:
 
     <% clients.each do |c| -%> 
-      <%= c.name %-> 
-      etc.
-    <% end %>
-
-The stuff in-between the "each" line and the "end" line is done once for each item in the list.
-
-Often the template will have methods to format the pieces of the list data.  For example, if you need to do some fancy formatting on the name you might have a method like:
-
-    <% clients.each do |c| -%> 
       <%= char_name(c) %-> 
       etc.
     <% end %>
+
+The stuff in-between the "each" line and the "end" line is done once for each item in the list.  Usually the template helper will have methods to format the pieces of the list data.  The example above is calling the char_name method, passing it a character.
 
 # Conditional Tags
 

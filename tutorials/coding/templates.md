@@ -25,20 +25,19 @@ You change the template just by editing these files.
 
 # How Templates Work
 
-Templates are plain text files that mingle text and special tags, similar to the way HTML works.  The tags are used to display data fields.  Field tags look like this: **<%= fieldname %>**.  Templates can also contain [formatting codes]({{site.siteroot}}tutorials/formatting.html), including ANSI color.
+Templates are plain text files that mingle text and special tags, similar to the way HTML works.  The tags are used to display data fields.  Field tags look like this: 
+
+    <%= fieldname %>
+
+Templates can also contain [formatting codes]({{site.siteroot}}tutorials/formatting.html), including ANSI color.
 
 Let's take a simple example of the character description template, which controls what gets shown when you look at a character.  With the out-of-the-box template, a character description looks like this:
 
-+==~~~~~====~~~~====~~~~====~~~~=====~~~~=====~~~~====~~~~====~~~~====~~~~~==+
-
-<span style="color:green">Adama</span>
-
-Full Name: Wiliam Adama
-
-A grizzled old commander with a pock-marked face.
-
-Played By: Edward J Olmos
-
++==~~~~~====~~~~====~~~~====~~~~=====~~~~=====~~~~====~~~~====~~~~====~~~~~==+<br/>
+<span style="color:green">Adama</span><br/><br/>
+Full Name: Wiliam Adama<br/>
+A grizzled old commander with a pock-marked face.<br/><br/>
+Played By: Edward J Olmos<br/>
 +==~~~~~====~~~~====~~~~====~~~~=====~~~~=====~~~~====~~~~====~~~~====~~~~~==+
 
 And here is the template that makes it work.
@@ -110,7 +109,7 @@ Sometimes the formatting appears in the template itself (like the %xg tag for gr
 Many templates contain lists, such as the list of players in the Who template.  To display each item in the list requires a special loop tag using the word 'each'.  Here's how it looks:
 
     <% clients.each do |c| -%> 
-      <%= c.name %-> 
+      <%= char_name(c) %-> 
       etc.
     <% end %>
 
@@ -120,17 +119,17 @@ The stuff in-between the "each" line and the "end" line is done once for each it
 
 You might be wondering why the character fields in the 'looping tags' example above get shown all on one line when they're on multiple lines in the template.  Whitespace matters, right?
 
-ERB templates offer a sneaky trick:  If you use a "-" in front of the end "&gt;" then it *doesn't* put a linebreak after.
+Ares templates offer a sneaky trick:  If you use a "-" in front of the end "&gt;" then it *doesn't* put a linebreak after.
 
 This version would show status and name on separate lines:
 
-      <%= c.status %> 
-      <%= c.name %> 
+      <%= char_status(c) %> 
+      <%= char_name(c) %> 
       
 This version shows status and name on one line:
 
-      <%= c.status %-> 
-      <%= c.name %-> 
+      <%= char_status(c) %-> 
+      <%= char_name(c) %-> 
 
 You can also use the special "one\_line" tag.  Anything between "one\_line" and "end" will all get displayed on the same line.  For example:
 
@@ -139,3 +138,8 @@ You can also use the special "one\_line" tag.  Anything between "one\_line" and 
     %xg<%= ic_total %>%xn 
     %xb<%= online_record %>%xn
     <% end %>
+
+
+# Even More Templates
+
+For even fancier things you can do with templates, check out the  [advanced templates tutorial]({{site.siteroot}}tutorials/coding/templates-advanced).

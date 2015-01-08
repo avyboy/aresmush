@@ -6,8 +6,6 @@ group: tutorials
 ---
 {% include JB/setup %}
 
-> **This description is a draft for a system that does not yet exist.  It's still a work in progress and subject to change.**
-
 Ares provides a number of cross-game features, the biggest of which is the **Handles** system.
 
 # What are Handles?
