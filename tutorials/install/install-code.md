@@ -20,7 +20,7 @@ You may wish to start out by creating your own semi-independent version of Ares 
 * It will be easier for you to handle upgrades.
 * It will be easier for you to get code help if you later need it.
 
-> **Note:** GitHub's projects are public unless you pay for a 'pro' account.  Sharing your code is in line with the spirit of Ares, but if making your code public gives you heartburn, skip to the next section.
+> **Note:** GitHub's projects are public unless you pay for a 'pro' account.  Sharing your code is in line with the spirit of Ares, but if making your code public gives you heartburn, skip it.
 
 Here is what you do to create your own Ares version.
 
@@ -36,7 +36,7 @@ Here is what you do to create your own Ares version.
 
 ## Get the Code
 
-On your [MUSH server shell]({{site.siteroot}}tutorials/admin/server-connect.html), type the following command:
+On your [MUSH server shell]({{site.siteroot}}tutorials/install/server-connect.html), type the following command:
 
     git clone <clone URL>
 
@@ -48,4 +48,4 @@ The game will be put into a directory named "aresmush".
 
 # Next Step
 
-Next we'll do some [Basic Configuration]({{site.siteroot}}tutorials/admin/basic-config.html).
+Next we'll do some [Basic Configuration]({{site.siteroot}}tutorials/install/basic-config.html).

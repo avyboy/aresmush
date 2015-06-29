@@ -42,13 +42,13 @@ To do this, you'll need to install Ruby and Git locally on your PC.  Here are li
 
 ## Setup Test Database
 
-You will want to repeat your [Database Installation]({{site.siteroot}}tutorials/admin/db-install.html) to install an extra database for test purposes.  You can name it something like mymush_test.
+You will want to repeat your [Database Installation]({{site.siteroot}}tutorials/install/db-install.html) to install an extra database for test purposes.  You can name it something like mymush_test.
 
 This way, things you do on your local PC while testing won't impact the real game database.
 
 ## Setup Local Game
 
-From a Git terminal on your PC, follow the same instructions for [Installing the Game]({{site.siteroot}}tutorials/admin/install-code.html).  This will get you a local copy of the code, and run the database and server setup.
+From a Git terminal on your PC, follow the same instructions for [Installing the Game]({{site.siteroot}}tutorials/install/install-code.html).  This will get you a local copy of the code, and run the database and server setup.
 
 > **Note!**  When doing the setup, make sure to enter the database information for the **test db** not the real one.  And you'll need to use 'localhost' or '127.0.0.1' for your host name.
 

@@ -47,4 +47,4 @@ On a PC, you'll need an app to help you out.  I've had good experience with [PuT
 
 # Next Step
 
-Now that you have a host, the next step is to [Install the Database]({{site.siteroot}}tutorials/admin/db-install.html)
+Now that you have a host, the next step is to [Install the Database]({{site.siteroot}}tutorials/install/db-install.html)

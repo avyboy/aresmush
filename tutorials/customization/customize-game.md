@@ -17,7 +17,7 @@ AresMUSH configuration is stored in text files on the game server.
 
 ### Editing Config
 
-To configure the game, you're going to need to edit text files on the game server. You can connect to the [MUSH server shell]({{site.siteroot}}tutorials/admin/server-connect.html) and use a command-line text editor like emacs, or use a FTP program like [WinSCP (PC)](http://winscp.net/eng/index.php) or [CyberDuck (Mac)](https://cyberduck.io/?l=en) to edit the server files.
+To configure the game, you're going to need to edit text files on the game server. You can connect to the [MUSH server shell]({{site.siteroot}}tutorials/install/server-connect.html) and use a command-line text editor like emacs, or use a FTP program like [WinSCP (PC)](http://winscp.net/eng/index.php) or [CyberDuck (Mac)](https://cyberduck.io/?l=en) to edit the server files.
 
 ### YAML Format
 
@@ -32,6 +32,7 @@ Most of the config files are in a special file format called [YAML](http://www.y
         welcome_screen: "game/files/connect.txt"
         
     # This is another section - notice how it lines up with the previous one.
+    # **** INDENTATION IS EXTREMELY IMPORTANT IN YAML ****
     names:
         # This is an option that takes a list.  
         restricted:
@@ -42,7 +43,7 @@ Most of the config files are in a special file format called [YAML](http://www.y
 
 You can't use multiple lines of text in YAML files, but you can use %R's, ansi and other [format codes]({{site.siteroot}}tutorials/coding/formatting.html) in most of the displayable items.
 
-> **Important!** Indentation is very important in YAML files, and is probably the most common thing that can get messed up.  Another common mistake is to forget double quotes around a text string that contains special characters (like - or :).
+> **Important!** Indentation is very important in YAML files, and is probably the most common thing that can get messed up.  Another common mistake is to forget double quotes around a text string that contains special YAML characters (like - or :).
 
 ### Updating the Game
 
@@ -68,7 +69,7 @@ Commented out:
 
     # welcome_text: "Hello Ares."
 
-Don't comment things out willy-nilly; items that can be disabled will say so.
+Don't comment things out willy-nilly; only comment out an option that has a note saying: "comment this out to disable it."
 
 ### Roles
 

@@ -20,7 +20,7 @@ If you ever need to stop your game, the best way is to use the "shutdown" comman
 
 As a last resort if the game gets hung or something, you can kill the server process.
 
-From your [MUSH server shell]({{site.siteroot}}tutorials/admin/server-connect.html), type:
+From your [MUSH server shell]({{site.siteroot}}tutorials/install/server-connect.html), type:
 
     ps -aux | grep startares
 

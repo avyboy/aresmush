@@ -11,13 +11,13 @@ nav_order: 4
 
 Penn and Tiny store their data in a single text file, but Ares uses a real database: MongoDB.  Most of you are probably familiar with SQL databases.  MongoDB is similar, but without the SQL.  Using a standard database makes it easy to get at your data, make backups, or even integrate it with a website.
 
-Because the database is separate from the game itself, you don't have to put your database on the same server as the MUSH.
+The database is separate from the game itself, so it can live on the same server, or elsewhere in the cloud.
 
 ## MongoLab
 
 MongoLab is a cloud database host that is simple and free, making it a good choice for hosting your Ares database.  Your data lives on a database server in the cloud.  There's a nice graphical interface for managing your DB.
 
-See [Setting up Ares with MongoLab]({{site.siteroot}}tutorials/admin/db-mongolab-setup.html) for detailed installation instructions.
+See [Setting up Ares with MongoLab]({{site.siteroot}}tutorials/install/db-mongolab-setup.html) for detailed installation instructions.
 
 > Full disclosure:  By having your database on a different server, there is a small chance of increased lag (if there's a bottleneck between the servers) or added downtime (because both your servers will have different maintenance windows).  But it's still the best option for anyone with limited server admin experience, or anyone who just wants something quick and easy.
 
@@ -36,7 +36,7 @@ See the [MongoDB website](http://docs.mongodb.org/manual/) for help.
 
 # Next Step
 
-Once your database is ready, the next step is to [Install The Game]({{site.siteroot}}tutorials/admin/install-code.html)
+Once your database is ready, the next step is to [Install The Game]({{site.siteroot}}tutorials/install/install-code.html)
 
 
 

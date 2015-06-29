@@ -43,4 +43,4 @@ You're all set!   You will need the username, password, db name and hostname whe
 
 # Next Step
 
-Once your database is ready, the next step is to [Install The Game]({{site.siteroot}}tutorials/admin/install-code.html)
+Once your database is ready, the next step is to [Install The Game]({{site.siteroot}}tutorials/install/install-code.html)
